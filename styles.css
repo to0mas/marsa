@@ -94,6 +94,7 @@ header {
   
     .hamburger {
       display: flex;
+      margin-right: 10px;
     }
   }
 
@@ -129,7 +130,7 @@ header {
 @media (max-width: 1200px) {
   .hero-container h1 {
     font-size: 200px;
-    padding: 0 300px; 
+    padding: 0 700px; 
   }
   .podnadpis {
     font-size: 35px;
@@ -148,8 +149,8 @@ header {
 
 @media (max-width: 768px) {
   .hero-container h1 {
-    font-size: 100px;
-    padding: 0 20px; 
+    font-size: 120px;
+    padding: 0 120px; 
   }
   .podnadpis {
     font-size: 25px;
