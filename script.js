@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
 
 gsap.from(".nadpis", { opacity: 0, duration: 2, ease: "power1.inOut" });
 
-gsap.from(".podnadpis", { opacity: 0, duration:7, ease: "power1.inOut" });
+gsap.from(".podnadpis", { opacity: 0, duration:5, ease: "sine.in", });
 
 console.clear();
 
