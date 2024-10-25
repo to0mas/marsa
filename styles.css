@@ -252,5 +252,5 @@ background-size: cover;
 .card
 {
 background-image: url(img/olympus.png)
-    
+background-size: cover;  
 }
