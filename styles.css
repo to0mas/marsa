@@ -447,3 +447,45 @@ font-size: 40px;
 
  
 }
+
+
+.equipment{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 0 100px;
+  margin-top:150x;
+}
+.equipment-container{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ flex-direction: column;
+  
+}
+.vehicle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.vehicle img{
+  width:450px;
+}
+.vehicle-text{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+ background: rgb(10, 10, 10);
+ border-radius: 8px;
+ padding: 0 20px 5px;
+ box-shadow: 0 4px 8px #d1b29228;
+}
+.vehicle-text h1{
+  font-size: 80px;
+ color:  #D1B092;
+}
+.vehicle-text p{
+  font-size: 30px;
+}
+
