@@ -407,10 +407,12 @@ font-size: 40px;
   font-weight: 600;
   color: #D1B092;
 }
-.trips-text p{
+.trips-text p a{
   font-size:25px;
   transition: .5s all;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 .trips-text p:hover{
   color: #D1B092;
