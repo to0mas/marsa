@@ -27,3 +27,29 @@ tl.to(rightColumn, {
   y: window.innerHeight - rightColumn.scrollHeight,
   ease: "none"
 });
+
+gsap.from(".title-trips", {
+  opacity: 0,
+  x: -100,
+  duration: 20,
+  ease: "expo.out",
+
+  scrollTrigger: {
+      trigger: ".title-trips",
+      start: "left 50%",
+      end: "top 30%",
+      scrub: 1,
+      markers: false
+  }
+});
+gsap.from(".trips-box", {
+  scrollTrigger: {
+    trigger: ".trips-box",
+    start: "top 90%",
+    toggleActions: "play none none reverse"
+  },
+  x: -100,
+  opacity: 0,
+  duration: 0.5,
+  ease: "power2.in"
+});
