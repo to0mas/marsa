@@ -8,6 +8,7 @@
 body{
     background-color: black;
     color: whitesmoke;
+    text-decoration: none;
 }
 html{
   scroll-behavior: smooth;
@@ -409,6 +410,7 @@ font-size: 40px;
 .trips-text p{
   font-size:25px;
   transition: .5s all;
+  cursor: pointer;
 }
 .trips-text p:hover{
   color: #D1B092;
