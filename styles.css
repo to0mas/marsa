@@ -56,12 +56,13 @@ header {
     color: white;
     text-decoration: none;
     font-size: 25px;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.5s ease-in-out;
+   
   }
   
   .nav-links li a:hover {
-    color: #C18061;
-
+    color: #d1b292;
+ transition: .5s all;
   }
   
   .hamburger {
@@ -77,7 +78,7 @@ header {
     width: 25px;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1500px) {
     .nav-links {
       position: absolute;
       top: 100%;
@@ -90,7 +91,17 @@ header {
       justify-content: center;
       align-items: center;
       transition: 0.3s ease;
+      
     }
+    .nav-links a{
+      border-bottom: 3px solid #d1b29217;
+      border-radius: 4px;
+    }
+    .nav-links a:hover{
+      border-bottom: 3px solid #d1b292;
+      transition: .5s all;
+    }
+
   
     .nav-links.show {
       left: 0;
@@ -480,7 +491,13 @@ font-size: 40px;
  background: rgb(10, 10, 10);
  border-radius: 8px;
  padding: 0 20px 5px;
- box-shadow: 0 4px 8px #d1b29228;
+ box-shadow: 0 4px 8px #d1b29234;
+ transition: .5s all;
+ border-left: 4px double #D1B092;
+}
+.vehicle-text:hover{
+  transition: .5s all;
+  box-shadow: 0 4px 8px #d1b19298;
 }
 .vehicle-text h1{
   font-size: 80px;
