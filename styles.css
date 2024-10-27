@@ -525,9 +525,12 @@ font-size: 40px;
 }
 
 @media (max-width: 480px) {
+  .equipment{
+    height: 350vh;
+  }
   .vehicle img {
     width: 100%;
-    height: 350vh;
+   
   }
   .vehicle-text h1 {
     font-size: 30px;
