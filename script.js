@@ -53,3 +53,4 @@ gsap.from(".trips-box", {
   duration: 0.5,
   ease: "power2.in"
 });
+
