@@ -559,3 +559,180 @@ font-size: 40px;
     font-size: 16px;
   }
 }
+.booking{
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+
+  padding: 20px 10%;
+  background-image:linear-gradient(to bottom,  rgba(0, 0, 0, 0.363)0%, rgb(15, 14, 14) 100%), url(mp4/8474867-hd_1920_1080_30fps.gif);
+  background-size: cover;
+  background-position: center;
+}
+.booking-title{
+  font-size: 50px;
+  color: #D8C2A0;
+ margin-bottom: 20px;
+}
+.booking-container{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+padding: 0 100px;
+ 
+}
+.info-box{
+  background: rgba(0, 0, 0, 0.329);
+  flex-direction: column;
+  padding: 10px 10px 50px;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.info-box h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+.info-box h2{
+  font-size: 30px;
+  color: rgb(190, 190, 190);
+}
+.info-box p{
+  font-size: 20px;
+}
+.form-box{
+  background: rgba(0, 0, 0, 0.85);
+}
+.form-box {
+  width: 100%;
+  max-width: 450px;
+  background: rgba(0, 0, 0, 0.8); 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  text-align: center;
+}
+
+.form-box h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #D1B092; }
+
+.form-box label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffdedb; 
+  text-align: left;
+}
+
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-box input[type="text"],
+.form-box input[type="date"],
+.form-box input[type="email"],
+.form-box input[type="tel"],
+.form-box select {
+  background: rgba(255, 255, 255, 0.2);
+  color: #000000;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #D1B092; 
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-box button:hover {
+  background-color: #D1B092; 
+}
+@media (max-width: 768px) {
+  .booking-container {
+      flex-direction: column;
+      padding: 0;
+  }
+
+  .booking-title {
+      font-size: 40px;
+      text-align: center;
+  }
+
+  .info-box, .form-box {
+      width: 100%;
+      max-width: none;
+  }
+
+  .info-box h1 {
+      font-size: 36px;
+  }
+
+  .info-box h2 {
+      font-size: 24px;
+  }
+
+  .info-box p {
+      font-size: 18px;
+  }
+
+  .form-box h1 {
+      font-size: 20px;
+  }
+
+  .form-box label,
+  .form-box input,
+  .form-box select,
+  .form-box button {
+      font-size: 14px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .booking-title {
+      font-size: 32px;
+      margin-bottom: 16px;
+  }
+
+  .info-box h1 {
+      font-size: 28px;
+  }
+
+  .info-box h2 {
+      font-size: 20px;
+  }
+
+  .info-box p,
+  .form-box label {
+      font-size: 17px;
+  }
+
+  .form-box h1 {
+      font-size: 17px;
+  }
+
+  .form-box input,
+  .form-box select,
+  .form-box button {
+      font-size: 12px;
+      padding: 8px;
+  }
+}
