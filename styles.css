@@ -562,10 +562,10 @@ font-size: 40px;
 .booking{
   width: 100%;
   height: 100vh;
-  margin-top: 100px;
+  margin-top: 150px;
 
   padding: 20px 10%;
-  background-image:linear-gradient(to bottom,  rgba(0, 0, 0, 0.363)0%, rgb(15, 14, 14) 100%), url(mp4/8474867-hd_1920_1080_30fps.gif);
+  background-image:linear-gradient(to bottom,  rgba(0, 0, 0, 0.363)0%, rgb(15, 14, 14) 100%) ;
   background-size: cover;
   background-position: center;
 }
